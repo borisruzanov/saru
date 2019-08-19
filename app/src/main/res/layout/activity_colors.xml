@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".view.ColorsActivity"
+    android:weightSum="100">
+
+    <TextView
+        android:background="@drawable/baby_background"
+        android:id="@+id/colors_red_title"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:text="0-3 года"
+        android:textColor="@color/darkGray"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:letterSpacing="0.25"/>
+
+    <TextView
+        android:background="@drawable/middle_background"
+        android:id="@+id/colors_yellow_title"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="3-5 лет"
+        android:layout_weight="33"
+        android:textColor="@color/darkGray"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:letterSpacing="0.25"/>
+
+    <TextView
+        android:background="@drawable/school_background"
+        android:id="@+id/colors_green_title"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="5-10 лет"
+        android:layout_weight="34"
+        android:textColor="@color/darkGray"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:letterSpacing="0.25"/>
+
+</LinearLayout>
+
